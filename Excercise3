@@ -1,103 +1,103 @@
-// // for loops
-// for (let i = 1; i<=10; i++){
-//     console.log(i);
-// }
-// // printing even numbers from 1 to 20
-// for (let i = 1; i <= 20; i++) {
-//     if (i % 2 === 0) {
-//         console.log(i);
-//     }
-// }
+// for loops
+for (let i = 1; i<=10; i++){
+    console.log(i);
+}
+// printing even numbers from 1 to 20
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}
 
-// // adding numbers from 1 to 100
-// let sum = 0;
-// for (let u = 1; u<=100; u++){
-//     sum += u;
-// }
-// console.log("Sum of numbers from 1 to 100:", sum);
+// adding numbers from 1 to 100
+let sum = 0;
+for (let u = 1; u<=100; u++){
+    sum += u;
+}
+console.log("Sum of numbers from 1 to 100:", sum);
 
 // multiple of 5 less than 50
 
-// array 
+array 
 
-// const numbers = [1, 2, 3, 4, 5];
-// for (let y = 0 ; y < numbers.length; y++){
-//     console.log(numbers[y]);
+const numbers = [1, 2, 3, 4, 5];
+for (let y = 0 ; y < numbers.length; y++){
+    console.log(numbers[y]);
 
-// }
-// find  the max
-// const numbers = [3,7,2,5,10,6];
-// let max = numbers[0];
-// for(let t = 0; t < numbers.length; t++){
-//     if (numbers[t] > max){
-//         max = numbers[t];
-//     }
-// }
-// console.log("Maximum number:", max);
+}
+//  finding the maximum number in an array
+const numbers = [3,7,2,5,10,6];
+let max = numbers[0];
+for(let t = 0; t < numbers.length; t++){
+    if (numbers[t] > max){
+        max = numbers[t];
+    }
+}
+console.log("Maximum number:", max);
 
 // While loops
-//  let num = 1;
-//  while (num <= 10){
-//      console.log(num) 
-//     num++
-//  }
-// let num = 1;
-// while (num <=10){
-//     if (num % 2 == 0){
-//         console.log(num);
-//     }
-//     num++;
-// }
+ let num = 1;
+ while (num <= 10){
+     console.log(num) 
+    num++
+ }
+let num = 1;
+while (num <=10){
+    if (num % 2 == 0){
+        console.log(num);
+    }
+    num++;
+}
 
 //  the sumof numbers from 1 to 100
-// let num = 0;
-// let sum = 0;
-// while(num <= 100){
-//     sum += num;
-//     num++;
-// }
-// console.log("Sum of numbers from 1 to 100:", sum);
+let num = 0;
+let sum = 0;
+while(num <= 100){
+    sum += num;
+    num++;
+}
+console.log("Sum of numbers from 1 to 100:", sum);
 
 
 
-// let num = 1;
-// while (num <= 50){
-//     if (num % 5 == 0)
-//         console.log(num);
-//     num++;
-// }
+let num = 1;
+while (num <= 50){
+    if (num % 5 == 0)
+        console.log(num);
+    num++;
+}
 
 // do while loop
 // printing numbers from 1 to 10 
-// let num = 1;
-// do {
-//     console.log(num);
-//     num++;
-// } while (num <= 10);
+let num = 1;
+do {
+    console.log(num);
+    num++;
+} while (num <= 10);
 
 
-// let x = 10;
+let x = 10;
 
 // the sum of numbers from 1 to 100
-// let sum  = 0;
-// let num = 1;
+let sum  = 0;
+let num = 1;
 
-// do{ 
-//     sum += num;
-//     num++;
-//     console.log("Sum of numbers from 1 to 100:", sum);
-// }
-// while(num <= 100);
+do{ 
+    sum += num;
+    num++;
+    console.log("Sum of numbers from 1 to 100:", sum);
+}
+while(num <= 100);
 
-// prompting user input and validating it
+//  prompting user input and validating it
 
 
-// let number;
-// do {
-//    number =Number(prompt("Please enter a number between 1 and 10:"));
-//     number ;
-// } while ( number > 10);
-// console.log("You entered:", number);
+let number;
+do {
+   number =Number(prompt("Please enter a number between 1 and 10:"));
+    number ;
+} while ( number > 10);
+console.log("You entered:", number);
 
 // guessing game
 let secretNumber = 7;
