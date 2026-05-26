@@ -1,0 +1,25 @@
+// assigning variables
+let name = "Benjamin Nkoana";
+let age = 30;
+let isStudent = true;
+console.log(`My name is ${name} and I am ${age} years old.`);
+console.log(`I am a student: ${isStudent}`);
+
+// reassigning variables
+
+let colour = "blue";
+console.log(`My favourite colour is ${colour}.`);
+colour = "green";
+console.log(`Now my favourite colour is ${colour}.`);
+
+// Arithmetic operations
+let num1 = 10;
+let num2 = 5;
+let sum = num1 + num2;
+let difference = num1 - num2;
+let product = num1 * num2;
+let quotient = num1 / num2;
+console.log(`Sum: ${sum}`);
+console.log(`Difference: ${difference}`);
+console.log(`Product: ${product}`);
+console.log(`Quotient: ${quotient}`);
